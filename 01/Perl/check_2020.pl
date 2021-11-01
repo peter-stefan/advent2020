@@ -1,9 +1,11 @@
-#!/opt/web/perl/current/bin/perl
+#!/usr/bin/perl
+
+# Solution for the first quest
 
 use strict ;
 use warnings ;
 
-open IN , 'input' ;
+open IN , '../input' ;
 
 my @unsorted = () ;
 

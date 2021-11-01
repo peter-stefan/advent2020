@@ -1,4 +1,4 @@
-#!/opt/web/perl/current/bin/perl
+#!/usr/bin/perl
 
 use strict ;
 use warnings ;

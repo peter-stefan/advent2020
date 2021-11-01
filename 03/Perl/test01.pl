@@ -1,4 +1,4 @@
-#!/opt/web/perl/current/bin/perl
+#!/usr/bin/perl
 
 use strict ;
 use warnings ;
@@ -24,5 +24,5 @@ while (my $line = <IN>) {
    print "$line\n" ;
    $standpunkt += 3 }
 
-print "Baueme:$baeume\n" ;
+print "Baeume:$baeume\n" ;
 close IN ;
