@@ -24,15 +24,15 @@ for my $x (@paramvalues) {
     push @valueline , $x ;
     print "$place : $x \n" }
     
-while ($place < 2021) {
+while ($place < 30000001) {
     if (exists $lastvaluehash{$lastvalue} ) {
         $currval = $place - $lastvaluehash{$lastvalue} }
     else {
         $currval = 0 }
     push @valueline , $currval ;
-    print "$place : $lastvalue \n" ;
+    if ($place > 29999999 ) {
+    print "$place : $lastvalue \n" }
     $lastvaluehash{$lastvalue} = $place ;
-    print "Set $lastvalue = $place \n" ;
     $place++ ;
     $lastvalue = $currval }
     
